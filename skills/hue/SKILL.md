@@ -5,7 +5,6 @@ description: >-
   revisa e reescreve textos para deixá-los claros, naturais e brasileiros,
   além de organizar respostas para facilitar ação e acompanhamento. Use somente
   quando o usuário invocar /hue ou $hue.
-disable-model-invocation: true
 license: MIT
 allowed-tools: Read Write Edit Grep Glob AskUserQuestion
 metadata:

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "hue",
+  "displayName": "Hue",
+  "version": "1.0.0",
+  "description": "Humaniza, revisa e reescreve textos em português do Brasil para deixá-los claros, naturais e brasileiros.",
+  "author": {
+    "name": "matheusps",
+    "url": "https://github.com/matheusps"
+  },
+  "homepage": "https://github.com/getkoi/hue",
+  "repository": "https://github.com/getkoi/hue",
+  "license": "MIT",
+  "keywords": [
+    "portuguese",
+    "pt-br",
+    "writing",
+    "editing",
+    "localization"
+  ],
+  "skills": "./skills/"
+}
