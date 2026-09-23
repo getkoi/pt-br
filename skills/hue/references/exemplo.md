@@ -83,7 +83,7 @@ Evitar padrões de IA é metade do trabalho. Texto estéril e sem voz é tão ó
 
 **O que ainda entrega que isso foi escrito por IA?**
 
-- O rascunho encolheu demais em relação ao original; corta textura em vez de reescrever.
+- O rascunho perdeu detalhes que sustentam a voz do relato. Recupere os que fazem diferença. Encurtar, por si só, não é um problema.
 - Algumas frases ainda explicam o ponto limpo demais ("A cidade é bonita, mas...").
 - O fechamento está chapado e genérico, não é um final de verdade na mesma voz.
 

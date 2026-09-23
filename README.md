@@ -51,6 +51,9 @@ Invoque a skill pelo nome qualificado do plugin:
 - Remove padrões comuns de texto gerado por IA.
 - Corrige construções traduzidas literalmente do inglês.
 - Preserva o sentido, a cobertura e a voz do autor.
+- Simplifica linguagem técnica com frases curtas e termos explicados.
+- Prioriza diagramas quando facilitam a explicação.
+- Revisa o tamanho do texto e corta excessos sem perder entendimento.
 - Adapta vocabulário, ortografia e formatação ao português brasileiro.
 - Organiza respostas com informação principal primeiro, passos claros e progresso visível.
 
@@ -63,6 +66,7 @@ Invoque a skill pelo nome qualificado do plugin:
 - [`skills/hue/SKILL.md`](./skills/hue/SKILL.md): instruções principais e checklist.
 - [`skills/hue/references/padroes.md`](./skills/hue/references/padroes.md): catálogo detalhado de padrões com exemplos.
 - [`skills/hue/references/exemplo.md`](./skills/hue/references/exemplo.md): calibração de voz e exemplo completo.
+- [`skills/hue/references/linguagem-simples.md`](./skills/hue/references/linguagem-simples.md): exemplos de simplificação técnica, diagramas e cortes.
 - [`skills/hue/agents/openai.yaml`](./skills/hue/agents/openai.yaml): apresentação e política de invocação explícita.
 
 ## Licença

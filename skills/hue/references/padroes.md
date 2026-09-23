@@ -26,7 +26,7 @@ Leia este arquivo só quando um item da checklist do SKILL.md não estiver claro
 - 20. Nominalizações e burocratês
 - 21. Ecos, rimas involuntárias e cacófatos
 - 22. Pleonasmos e redundâncias
-- 23. Travessões: corte
+- 23. Travessões e ponto e vírgula em cadeia
 - 24. Excesso de negrito
 - 25. Listas com cabeçalho em negrito e dois-pontos
 - 26. Maiúsculas em todas as palavras do título
@@ -297,7 +297,7 @@ Em cada item, o primeiro trecho é o calque e o segundo, a forma natural.
 
 > Enquanto a abordagem A é mais rápida, a B é mais segura.
 
-> A abordagem A é mais rápida; a B, mais segura. (ou: Embora A seja mais rápida, B é mais segura.)
+> A abordagem A é mais rápida. A B é mais segura. (ou: Embora A seja mais rápida, B é mais segura.)
 
 **h. "Onde" sem lugar.**
 
@@ -415,11 +415,11 @@ O usuário pediu português do Brasil. Modelos misturam as variantes sem percebe
 
 ## PADRÕES DE ESTILO
 
-### 23. Travessões: corte
+### 23. Travessões e ponto e vírgula em cadeia
 
 **Regra:** A versão final não tem travessão (—) nem meia-risca (–) no meio da frase. O travessão é um dos sinais mais confiáveis de IA, em português tanto quanto em inglês; trate como restrição, não como "use com moderação". Substitua cada um, em ordem de preferência: ponto (nova frase), vírgula (aparte curto), dois-pontos (introduz explicação), parênteses (aparte de verdade), ou reestruture. Pegue também o hífen duplo (--) e o hífen simples com espaços ( - ) usados como travessão.
 
-Exceção única: diálogo em ficção, em que o travessão abre a fala.
+Na prosa, a exceção é o diálogo em ficção, em que o travessão abre a fala. Preserve também código, conteúdo literal e sintaxe de diagramas.
 
 **Antes:**
 > O termo é promovido principalmente pelas instituições — não pelas pessoas. Ninguém escreve "Brasil, América do Sul" num endereço — mas o erro continua — até em documento oficial.
@@ -427,7 +427,37 @@ Exceção única: diálogo em ficção, em que o travessão abre a fala.
 **Depois:**
 > O termo é promovido principalmente pelas instituições, não pelas pessoas. Ninguém escreve "Brasil, América do Sul" num endereço, mas o erro continua até em documento oficial.
 
-Antes de entregar a versão final, procure por "—" e "–". Qualquer ocorrência significa que o rascunho não está pronto.
+Antes de entregar a versão final, procure por "—" e "–" na prosa. Corrija as ocorrências fora dessas exceções.
+
+#### Ponto e vírgula em cadeia
+
+**Problema:** O ponto e vírgula vira uma saída fácil para manter frases que já deveriam ter terminado. Uma sequência dessas pausas dá à explicação uma cadência artificial. Também esconde frases acima do limite de 25 palavras.
+
+**Regra:** Evite ponto e vírgula na prosa gerada. Se cada oração puder ser lida sozinha, use ponto final. Não conte o ponto e vírgula como fim de frase na checagem de extensão.
+
+Preserve o sinal em código, citações e conteúdo literal. Preserve também quando a amostra do usuário mostrar que ele faz parte da voz do autor. Um uso isolado e deliberado não é sinal de IA.
+
+**Antes (explicação encadeada):**
+> O cache guarda resultados consultados com frequência; isso reduz o trabalho do banco de dados; a resposta chega mais rápido para o usuário.
+
+**Depois:**
+> O cache guarda resultados consultados com frequência. Assim, o banco de dados trabalha menos e responde mais rápido.
+
+**Antes (termos comprimidos):**
+> Pulso: transmite ritmo e movimento; Farol: sugere orientação; Trama: reforça a ideia de conexão.
+
+**Depois:**
+> - Pulso: transmite ritmo e movimento.
+> - Farol: sugere orientação.
+> - Trama: reforça a ideia de conexão.
+
+**Antes (frase longa):**
+> O aplicativo reúne os pedidos; avisa quando um prazo muda; mostra quem ficou responsável; mantém o histórico de cada decisão.
+
+**Depois:**
+> O aplicativo reúne os pedidos e avisa quando um prazo muda. A equipe também vê os responsáveis e o histórico das decisões.
+
+A versão final usa frases curtas e médias com sentido completo. Não troque o encadeamento por vários fragmentos de uma ou duas palavras.
 
 ### 24. Excesso de negrito
 
@@ -644,6 +674,7 @@ Um bom escritor humano acerta vários dos padrões acima sem nenhuma IA envolvid
 - **Conectivos isolados.** "Além disso", "no entanto", "portanto" só contam quando empilhados. Um "porém" não é sinal.
 - **Aspas curvas sozinhas.** Editores colocam sozinhos.
 - **Travessão sozinho.** Jornalistas e escritores brasileiros usam bastante. Só conta junto de ritmo de vendedor e outras fórmulas.
+- **Ponto e vírgula isolado.** Preserve quando estiver correto e combinar com a voz do autor. O problema é usá-lo em cadeia para evitar o ponto final.
 - **Uma frase curta enfática.** Humanos fecham ponto com frase seca. Marque staccato só quando vários fragmentos se seguem e inflam o tom.
 - **"Sinceramente" ou "olha" no meio da frase.** São comuns em escrita casual. O sinal é o gancho teatral isolado.
 - **Falta de fontes.** A maior parte da internet não tem fonte. Isso não prova nada.
