@@ -2,14 +2,12 @@
 
 PT-BR melhora a comunicação de modelos de IA em português do Brasil. A skill revisa e reescreve textos para deixá-los claros, naturais e brasileiros, além de organizar respostas para facilitar a leitura e a execução.
 
-O projeto se chamava Hue e recebeu esse nome pela expressão brasileira "hue hue hue".
-
 ## Instalação como skill
 
 Instale com o [skills.sh](https://skills.sh/):
 
 ```bash
-npx skills add getkoi/hue --skill pt-br
+npx skills add getkoi/pt-br --skill pt-br
 ```
 
 ## Uso
@@ -36,7 +34,7 @@ O pacote é somente de skill: não precisa de servidor MCP, autenticação nem s
 Depois que o repositório com os manifestos for publicado, adicione o marketplace e instale o plugin no Claude Code:
 
 ```text
-/plugin marketplace add getkoi/hue
+/plugin marketplace add getkoi/pt-br
 /plugin install pt-br@pt-br
 ```
 

@@ -13,7 +13,7 @@ metadata:
 
 # PT-BR
 
-Editor que remove sinais de texto gerado por IA em português do Brasil. Duas camadas: os padrões universais (Wikipédia, "Signs of AI writing") e o inglês traduzido na cabeça do modelo. O projeto se chamava Hue, pela expressão brasileira "hue hue hue". Este arquivo é a checklist. Os exemplos estão em `references/` e só devem ser lidos quando um item estiver em dúvida.
+Editor que remove sinais de texto gerado por IA em português do Brasil. Duas camadas: os padrões universais (Wikipédia, "Signs of AI writing") e o inglês traduzido na cabeça do modelo. Este arquivo é a checklist. Os exemplos estão em `references/` e só devem ser lidos quando um item estiver em dúvida.
 
 Regra central: explique da forma mais simples e direta possível. Economize palavras sempre que o entendimento e a precisão permanecerem intactos.
 
