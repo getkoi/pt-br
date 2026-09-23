@@ -1,5 +1,5 @@
 {
-  "name": "hue",
+  "name": "pt-br",
   "version": "1.0.0",
   "description": "Humaniza, revisa e reescreve textos em português do Brasil para deixá-los claros, naturais e brasileiros.",
   "author": {
@@ -18,7 +18,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Hue",
+    "displayName": "PT-BR",
     "shortDescription": "Escrita clara e natural em português do Brasil.",
     "longDescription": "Revisa, reescreve e cria textos em português do Brasil, remove cacoetes de IA e preserva o sentido, a cobertura e a voz do autor.",
     "developerName": "matheusps",

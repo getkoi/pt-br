@@ -1,14 +1,14 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "hue",
-  "description": "Plugins de escrita em português do Brasil mantidos pelo projeto Hue.",
+  "name": "pt-br",
+  "description": "Plugin de escrita em português do Brasil.",
   "owner": {
     "name": "matheusps"
   },
   "plugins": [
     {
-      "name": "hue",
-      "displayName": "Hue",
+      "name": "pt-br",
+      "displayName": "PT-BR",
       "description": "Humaniza, revisa e reescreve textos em português do Brasil para deixá-los claros, naturais e brasileiros.",
       "source": "./",
       "category": "productivity",

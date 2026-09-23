@@ -1,28 +1,28 @@
-# 🇧🇷 Hue
+# 🇧🇷 PT-BR
 
-Hue melhora a comunicação de modelos de IA em português do Brasil. A skill revisa e reescreve textos para deixá-los claros, naturais e brasileiros, além de organizar respostas para facilitar a leitura e a execução.
+PT-BR melhora a comunicação de modelos de IA em português do Brasil. A skill revisa e reescreve textos para deixá-los claros, naturais e brasileiros, além de organizar respostas para facilitar a leitura e a execução.
 
-O nome vem da expressão brasileira "hue hue hue".
+O projeto se chamava Hue e recebeu esse nome pela expressão brasileira "hue hue hue".
 
 ## Instalação como skill
 
 Instale com o [skills.sh](https://skills.sh/):
 
 ```bash
-npx skills add getkoi/hue --skill hue
+npx skills add getkoi/hue --skill pt-br
 ```
 
 ## Uso
 
 Invoque a skill explicitamente:
 
-- `/hue` em agentes compatíveis
-- `$hue` no Codex
+- `/pt-br` em agentes compatíveis
+- `$pt-br` no Codex
 
 Exemplo:
 
 ```text
-/hue Reescreva este texto em português do Brasil, com um tom mais natural.
+/pt-br Reescreva este texto em português do Brasil, com um tom mais natural.
 ```
 
 ## Plugin para ChatGPT e Codex
@@ -37,16 +37,16 @@ Depois que o repositório com os manifestos for publicado, adicione o marketplac
 
 ```text
 /plugin marketplace add getkoi/hue
-/plugin install hue@hue
+/plugin install pt-br@pt-br
 ```
 
 Invoque a skill pelo nome qualificado do plugin:
 
 ```text
-/hue:hue Reescreva este texto em português do Brasil, com um tom mais natural.
+/pt-br:pt-br Reescreva este texto em português do Brasil, com um tom mais natural.
 ```
 
-## O que a Hue faz
+## O que a PT-BR faz
 
 - Remove padrões comuns de texto gerado por IA.
 - Corrige construções traduzidas literalmente do inglês.
@@ -63,11 +63,11 @@ Invoque a skill pelo nome qualificado do plugin:
 - [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json): manifesto de compatibilidade do Codex.
 - [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json): manifesto nativo do Claude Code.
 - [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json): catálogo instalável pelo Claude Code.
-- [`skills/hue/SKILL.md`](./skills/hue/SKILL.md): instruções principais e checklist.
-- [`skills/hue/references/padroes.md`](./skills/hue/references/padroes.md): catálogo detalhado de padrões com exemplos.
-- [`skills/hue/references/exemplo.md`](./skills/hue/references/exemplo.md): calibração de voz e exemplo completo.
-- [`skills/hue/references/linguagem-simples.md`](./skills/hue/references/linguagem-simples.md): exemplos de simplificação técnica, diagramas e cortes.
-- [`skills/hue/agents/openai.yaml`](./skills/hue/agents/openai.yaml): apresentação e política de invocação explícita.
+- [`skills/pt-br/SKILL.md`](./skills/pt-br/SKILL.md): instruções principais e checklist.
+- [`skills/pt-br/references/padroes.md`](./skills/pt-br/references/padroes.md): catálogo detalhado de padrões com exemplos.
+- [`skills/pt-br/references/exemplo.md`](./skills/pt-br/references/exemplo.md): calibração de voz e exemplo completo.
+- [`skills/pt-br/references/linguagem-simples.md`](./skills/pt-br/references/linguagem-simples.md): exemplos de simplificação técnica, diagramas e cortes.
+- [`skills/pt-br/agents/openai.yaml`](./skills/pt-br/agents/openai.yaml): apresentação e política de invocação explícita.
 
 ## Licença
 

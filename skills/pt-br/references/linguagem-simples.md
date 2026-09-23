@@ -53,4 +53,4 @@ Prefira a versão menor quando ambas explicarem a mesma coisa. Se um corte escon
 
 [Guia prático do português simplificado para documentos acessíveis](https://iparadigma.org.br/wp-content/uploads/2025/10/Guia_pratico_do_portugues_simplificado_digital.pdf). Mirella Balestero et al. Ibict, 2023. Licença CC BY 4.0.
 
-Páginas de referência: 16, 28, 34 e 38 a 43. O guia orienta a escolha de palavras, a explicação de termos e a ligação entre ideias. Os exemplos acima são próprios da Hue. A preferência por diagramas e a checagem de tamanho são adaptações desta skill.
+Páginas de referência: 16, 28, 34 e 38 a 43. O guia orienta a escolha de palavras, a explicação de termos e a ligação entre ideias. Os exemplos acima são próprios da PT-BR. A preferência por diagramas e a checagem de tamanho são adaptações desta skill.

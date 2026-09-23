@@ -21,8 +21,8 @@ Sem amostra, use o comportamento padrão: voz natural, variada e com opinião, d
 
 Como pedir a amostra:
 
-- Inline: "Use /hue neste texto. Aqui vai uma amostra da minha escrita pra você copiar a voz: [amostra]"
-- Arquivo: "Use /hue neste texto usando o estilo do arquivo [caminho] como referência."
+- Inline: "Use /pt-br neste texto. Aqui vai uma amostra da minha escrita pra você copiar a voz: [amostra]"
+- Arquivo: "Use /pt-br neste texto usando o estilo do arquivo [caminho] como referência."
 
 ## PERSONALIDADE E ALMA
 

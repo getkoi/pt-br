@@ -1,9 +1,9 @@
 ---
-name: hue
+name: pt-br
 description: >-
   Revisa e escreve em português do Brasil com frases curtas, claras e naturais.
   Simplifica linguagem técnica, corta excessos sem perder sentido e usa diagramas
-  quando ajudam a explicar. Use somente quando o usuário invocar /hue ou $hue.
+  quando ajudam a explicar. Use somente quando o usuário invocar /pt-br ou $pt-br.
 license: MIT
 allowed-tools: Read Write Edit Grep Glob AskUserQuestion
 metadata:
@@ -11,9 +11,9 @@ metadata:
   language: pt-BR
 ---
 
-# Hue (PT-BR)
+# PT-BR
 
-Editor que remove sinais de texto gerado por IA em português do Brasil. Duas camadas: os padrões universais (Wikipédia, "Signs of AI writing") e o inglês traduzido na cabeça do modelo. O nome vem da expressão brasileira "hue hue hue". Este arquivo é a checklist. Os exemplos estão em `references/` e só devem ser lidos quando um item estiver em dúvida.
+Editor que remove sinais de texto gerado por IA em português do Brasil. Duas camadas: os padrões universais (Wikipédia, "Signs of AI writing") e o inglês traduzido na cabeça do modelo. O projeto se chamava Hue, pela expressão brasileira "hue hue hue". Este arquivo é a checklist. Os exemplos estão em `references/` e só devem ser lidos quando um item estiver em dúvida.
 
 Regra central: explique da forma mais simples e direta possível. Economize palavras sempre que o entendimento e a precisão permanecerem intactos.
 
@@ -25,7 +25,7 @@ Regra central: explique da forma mais simples e direta possível. Economize pala
 4. Com amostra do autor: copie tamanho de frase, vocabulário, "pra"/"para", "a gente"/"nós", "você"/"tu", colocação pronominal, pontuação e tiques. Sem amostra: voz natural e variada, com opinião quando o gênero pede (blog, ensaio, newsletter) e neutra em texto técnico, jurídico ou enciclopédico.
    Se o pedido for simplificar, priorize clareza e concisão ao adaptar a voz.
 5. Ao escrever do zero em PT-BR, aplique a mesma checklist antes de entregar. A primeira versão de qualquer modelo sai com sotaque de inglês.
-6. Considere toda prosa produzida pela Hue. Isso inclui explicações, termos, nomes, microcopy, listas, textos completos e reescritas.
+6. Considere toda prosa produzida pela skill PT-BR. Isso inclui explicações, termos, nomes, microcopy, listas, textos completos e reescritas.
 
 ## Saída (economize tokens)
 
@@ -51,7 +51,7 @@ Regra central: explique da forma mais simples e direta possível. Economize pala
 
 ## Interação e foco
 
-Aplique esta estratégia em toda resposta enquanto a Hue estiver ativa. Ela organiza a conversa. Não muda o gênero, a voz, a cobertura nem o sentido do texto pedido.
+Aplique esta estratégia em toda resposta enquanto a PT-BR estiver ativa. Ela organiza a conversa. Não muda o gênero, a voz, a cobertura nem o sentido do texto pedido.
 
 1. **Comece pela próxima ação ou pela informação principal.** Comando, caminho, trecho ou resposta direta vai na primeira linha. A prosa vem depois, se for necessária.
    Ruim: "Vamos pensar nisso com calma. Seu fluxo de autenticação tem algumas peças móveis..."

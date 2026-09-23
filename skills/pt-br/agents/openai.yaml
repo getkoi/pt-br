@@ -1,5 +1,5 @@
 interface:
-  display_name: Hue
+  display_name: PT-BR
   short_description: Escrita clara e natural em português do Brasil.
   brand_color: "#009C3B"
   default_prompt: Reescreva este texto em português do Brasil e preserve a minha voz.
